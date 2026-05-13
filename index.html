@@ -1,62 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>PB Mourian | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>PB Mourian</h1>
-    <p>IT Student | Python | AI | Web</p>
-</header>
+  <header>
+    <nav>
+      <h2 class="logo">Mourian PB</h2>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<section>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Cloud & DevOps Engineer</h1>
+      <p>
+        AWS | Docker | Kubernetes | Jenkins | Terraform | Python
+      </p>
+      <div class="buttons">
+        <a href="https://linkedin.com/in/mourian-sarathi" target="_blank" class="btn">LinkedIn</a>
+        <a href="https://github.com/Mourian-sys" target="_blank" class="btn btn-outline">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
     <h2>About Me</h2>
     <p>
-        I am an Information Technology student from Anna University with strong
-        knowledge in Python, Artificial Intelligence, and web technologies.
+      I am an aspiring Cloud and DevOps Engineer with hands-on experience in AWS, Linux, Docker, Kubernetes, Jenkins, Terraform, and CI/CD automation. I am passionate about cloud infrastructure, deployment automation, monitoring, and scalable systems.
     </p>
-</section>
+  </section>
 
-<section>
-    <h2>Skills</h2>
-    <ul>
-        <li>Python</li>
-        <li>Artificial Intelligence</li>
-        <li>SQL</li>
-        <li>Git & GitHub</li>
-        <li>Web Technologies</li>
-    </ul>
-</section>
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
 
-<section>
-    <h2>Project</h2>
-    <h3>Robust Seat Allocation System</h3>
-    <p>
-        Python-based AI project to optimize seat allocation using constraint
-        optimization algorithms.
-    </p>
-</section>
+    <div class="skills-grid">
+      <div class="card">AWS</div>
+      <div class="card">Docker</div>
+      <div class="card">Kubernetes</div>
+      <div class="card">Jenkins</div>
+      <div class="card">Terraform</div>
+      <div class="card">Linux</div>
+      <div class="card">Python</div>
+      <div class="card">Prometheus</div>
+      <div class="card">Grafana</div>
+      <div class="card">Git & GitHub</div>
+    </div>
+  </section>
 
-<section>
-    <h2>Certifications</h2>
-    <p>C, C++, Java, Python Basics</p>
-</section>
+  <section id="projects" class="section">
+    <h2>Projects</h2>
 
-<section>
+    <div class="project-card">
+      <h3>Robust Seating Allocation System</h3>
+      <p>
+        Designed and deployed a scalable cloud-based seating allocation system using AWS, Docker, Kubernetes, Jenkins, and Python.
+      </p>
+
+      <ul>
+        <li>Implemented CI/CD using Jenkins</li>
+        <li>Deployed on Kubernetes cluster in AWS EC2</li>
+        <li>Configured Load Balancer and IAM security</li>
+        <li>Integrated Prometheus & Grafana monitoring</li>
+      </ul>
+
+      <a href="https://github.com/Mourian-sys" target="_blank" class="btn">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
     <h2>Contact</h2>
-    <p>Email: MourianParthasarathi@gmail.com</p>
-    <p>
-        GitHub: <a href="https://github.com/Mourian-sys">github.com/Mourian-sys</a><br>
-        LinkedIn: <a href="https://linkedin.com/in/mourian-pb-b12177330">LinkedIn</a>
-    </p>
-</section>
 
-<footer>
-    <p>© 2026 PB Mourian</p>
-</footer>
+    <div class="contact-box">
+      <p>Email: mourianparthasarathi@gmail.com</p>
+      <p>Phone: 6380394027</p>
+      <p>LinkedIn: linkedin.com/in/mourian-sarathi</p>
+      <p>GitHub: github.com/Mourian-sys</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Mourian PB | Cloud & DevOps Engineer</p>
+  </footer>
 
 </body>
 </html>
